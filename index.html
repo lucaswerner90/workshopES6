@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+	<title>Angular ES6 Sample</title>
+</head>
+<body data-ng-controller="HomeController" data-ng-init="init()">
+	<!--  La funcion get() se usa como si llamaramos a un atributo no como llamada a una funcion-->
+	<h1>Hello {{person.name}}!</h1>
+	<h2>I'm {{child.name}}</h2>
+	<h2>I'm {{childTED.name}}</h2>
+
+	<script src="libs/angular.min.js"></script>
+	<script src="dist/app.js"></script>
+</body>
+</html>
